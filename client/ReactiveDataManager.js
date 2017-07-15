@@ -1,7 +1,9 @@
-import {Meteor} from 'meteor/meteor';
-import {autorun, toJS} from 'mobx';
-import Examples from '../imports/api/examples/examples'
-import Dependents from '../imports/api/dependents/dependents'
+
+import { Meteor } from 'meteor/meteor';
+import { autorun, toJS } from 'mobx';
+
+import Examples from '../imports/api/examples/examples';
+import Dependents from '../imports/api/dependents/dependents';
 
 
 // A class for managing Meteor subscriptions based on observed changes in a state store
@@ -88,4 +90,3 @@ export default class ReactiveDataManager {
         });
     }
 }
-

@@ -1,6 +1,12 @@
-import {Meteor} from 'meteor/meteor';
-import {extendObservable, action, useStrict, toJS, map} from 'mobx';
-import ReactiveDataManager from './ReactiveDataManager'
+import { Meteor } from 'meteor/meteor';
+import {
+  extendObservable,
+  action,
+  useStrict,
+  toJS,
+  map
+} from 'mobx';
+import ReactiveDataManager from './ReactiveDataManager';
 
 export default class AppState {
     constructor() {
